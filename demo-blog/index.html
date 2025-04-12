@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My First Blog - My Blogger</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .blog-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .blog-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .blog-content {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .blog-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            margin: 1rem 0;
+        }
+        .blog-meta {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 1rem;
+            color: var(--secondary-color);
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <header class="header">
+            <div class="logo">
+                <h1>My Blogger</h1>
+            </div>
+        </header>
+
+        <main class="blog-container">
+            <a href="../" class="back-link">← Back to Blog List</a>
+            
+            <article class="blog-content">
+                <header class="blog-header">
+                    <h1>Welcome to My First Blog</h1>
+                    <div class="blog-meta">
+                        <span>Published on: February 29, 2024</span>
+                        <span> • </span>
+                        <span>5 min read</span>
+                    </div>
+                </header>
+
+                <section>
+                    <h2>Introduction</h2>
+                    <p>Welcome to my first blog post! This is a demo post to show how blog content can be structured and styled. Feel free to use this as a template for your own blog posts.</p>
+                    
+                    <h2>Why Blogging?</h2>
+                    <p>Blogging is a great way to share your thoughts, knowledge, and experiences with the world. It helps you:</p>
+                    <ul>
+                        <li>Improve your writing skills</li>
+                        <li>Share your expertise</li>
+                        <li>Connect with like-minded people</li>
+                        <li>Build your online presence</li>
+                    </ul>
+
+                    <h2>Code Example</h2>
+                    <pre><code>
+// Here's a simple JavaScript function
+function greet(name) {
+    return `Hello, ${name}! Welcome to my blog.`;
+}
+
+console.log(greet('Reader'));
+                    </code></pre>
+
+                    <h2>Formatting Examples</h2>
+                    <p>This blog supports various text formatting options:</p>
+                    <ul>
+                        <li><strong>Bold text</strong> for emphasis</li>
+                        <li><em>Italic text</em> for subtle emphasis</li>
+                        <li><code>Inline code</code> for technical terms</li>
+                        <li>And regular text for normal content</li>
+                    </ul>
+
+                    <h2>Conclusion</h2>
+                    <p>This is just a sample blog post to demonstrate the layout and styling. You can customize it further based on your needs. Happy blogging!</p>
+                </section>
+            </article>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2024 My Blogger. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html> 
